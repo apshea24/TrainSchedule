@@ -1,0 +1,9 @@
+#employee-table th,
+td {
+  display: inline-block;
+  width: 16.575%;
+}
+
+body {
+    background: rgba(96,96,96, 0.5);
+}
