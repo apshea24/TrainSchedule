@@ -39,8 +39,8 @@
 
         <!-- Jumbotron -->
         <div class="jumbotron" style="background-color: red; color: black">
-            <h1 class="text-center">Employee Data Management</h1>
-            <h3 class="text-center">A Comprehensive Directory of Employee Billable Hours</h3>
+            <h1 class="text-center">Train Scheduler</h1>
+            <h3 class="text-center">A Pretty Friggin Sweet Way To Book Trains</h3>
         </div>
 
         <div class="row">
@@ -49,19 +49,19 @@
 
                 <!-- Current Employees-->
                 <div class="card mb-4">
-                    <div class="card-header">Train Schedule</div>
+                    <div class="card-header justify-content-center">Train Schedule</div>
                     <div class="card-body">
-                        <table class="table table-sm table-hover" id='employee-table'>
+                        <table class="table table-sm table-hover" id='train-table'>
                             <thead>
                                 <tr>
                                     <th scope="col">Train Name</th>
                                     <th scope="col">Destination</th>
                                     <th scope="col">First Train Time</th>
                                     <th scope="col">Frequency</th>
-                                    <th scope="col">Next Train Arrives In</th>
+                                    <th scope="col">Next Train Arrives</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="table-body">
                             </tbody>
                         </table>
                     </div>
